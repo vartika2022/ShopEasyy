@@ -4,7 +4,9 @@
   "description": "A fully functional E-commerce website in MERN stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SET NODE_ENV=DEVELOPMENT& nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/index.js"
   },
   "repository": {
     "type": "git",
